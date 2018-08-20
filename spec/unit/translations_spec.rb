@@ -1,8 +1,12 @@
 # frozen_string_literal: true
 
-describe "single call" do
+describe "countries" do
   it "translates correctly" do
     expect(I18n.t(:ES, :scope => :countries)).to eql "Spain"
+  end
+
+  it "NO (Norwegian) mimics NB (Norwegian Bokmål)" do
+    expect(I18n.t(:countries, locale: :nb)).to eql I18n.t(:countries, locale: :no)
   end
 end
 
