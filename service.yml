@@ -1,0 +1,6 @@
+org_line: International Growth
+owners:
+  - Shopify/i18n
+slack_channels:
+  - intl-dev
+classification: library
