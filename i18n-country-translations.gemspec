@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.platform     = Gem::Platform::RUBY
 
-  s.add_dependency('i18n', '~> 1.0.1')
+  s.add_dependency('i18n', '>= 1.0.1', '< 2')
   s.add_runtime_dependency "railties", '>= 4.0'
   s.add_development_dependency "rails", "~> 5.2.0"
   s.add_development_dependency 'rspec-rails', '~> 3.7', '>= 3.7.2'
