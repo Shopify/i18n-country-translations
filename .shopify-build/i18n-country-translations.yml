@@ -1,6 +1,6 @@
 containers:
   default:
-    docker: circleci/ruby:2.4.4-node-browsers
+    docker: circleci/ruby:2.6.3
 
 steps:
 - label: Run tests
