@@ -1,0 +1,7 @@
+---
+name: i18n-Country-Translations
+up:
+- ruby: 2.6.3
+- bundler
+commands:
+  test: bundle exec rspec
